@@ -1,0 +1,99 @@
+body{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:aliceblue;
+}
+
+
+.container{
+    width: 480px;
+    background-color: wheat;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+h1{
+    top:30px;
+    text-align: center;
+    color: blue;
+    font: size 40px;
+    font-style: normal;
+}
+
+
+form{
+    background-color: thistle;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+input[type="phone"]
+input[type="radio"],
+input[type="checkbox"],
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input: focus;
+select: focus;
+textarea: focus{
+    border-color:light blue;
+    outline: none;
+}
+
+
+.gender{
+    margin: 10px 0;
+}
+.gender label{
+    margin-right: 20px;
+    font-size:15px ;
+    cursor: pointer;
+}
+
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 10px;
+}
+
+
+
+input[type="submit"],
+width:45%;
+padding: 10px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+input[type="submit"]{
+    background-color: darkblue;
+    color: white;
+}
